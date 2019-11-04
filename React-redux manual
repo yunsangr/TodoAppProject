@@ -1,0 +1,10 @@
+1. install redux & react-redux
+    npm install redux
+    npm install react-redux
+    npm install
+    restart the app
+
+    error case
+        1. Unresolved @babel/runtime : npm install --save @babel/runtime
+        2. package itself specifies a `main` module field that could not be resolved
+            : remove node_modules folder & npm install & restart the project
